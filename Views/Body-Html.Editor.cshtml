@@ -1,0 +1,14 @@
+﻿@{ 
+    Style.Require("AceStyles");
+    Script.Require("AceJs");
+}
+
+<div class="editor">
+    @Html.TextArea("Text", (string)Model.Text, 25, 80,
+     new Dictionary<string, object> {
+        {"id", "editor"},
+        {"style", "width:100%"}
+     })
+
+    @Html.Hidden("Text", (string)Model.Text)
+</div>

@@ -5,6 +5,7 @@ Website: http://moov2.com
 Version: 1.0
 OrchardVersion: 1.10.1
 Description: Use Ace as HTML editor
+Category: Editor
 Features:
     Moov2.Orchard.Ace:
         Description: Use Ace as HTML editor
